@@ -56,16 +56,17 @@
        "Ref": "UserName"
     },
     "\n",
-    "SSHKEY=",
+    "SSHKEY=\"",
     {
         "Ref": "SSHPublicKey"
     },
-    "\n",
+    "\"\n",
     "groupadd students\n",
     "useradd -m -g students $USERNAME\n",
     "mkdir -p /home/$USERNAME/.ssh\n",
     "echo $SSHKEY >> /home/$USERNAME/.ssh/authorized_keys\n",
-    "chmod -R 600 /home/$USERNAME/.ssh\n",
+    "chmod 700 /home/$USERNAME/.ssh\n",
+    "chmod 600 /home/$USERNAME/.ssh\n",
     "chown -R $USERNAME:students /home/$USERNAME/.ssh\n"
 ]]}}
       }
