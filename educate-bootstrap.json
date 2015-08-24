@@ -5,9 +5,7 @@
 
     "Parameters": {
         "UserName": {"Type": "String", "Default" : "testuser"},
-        "SSHPublicKey": {"Type": "String"}
-    },
-
+        "SSHPublicKey": {"Type": "String"},
     "InstanceType" : {
       "Description" : "WebServer EC2 instance type",
       "Type" : "String",
