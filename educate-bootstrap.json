@@ -7,7 +7,7 @@
         "UserName": {"Type": "String", "Default" : "testuser"},
         "SSHPublicKey": {"Type": "String"},
     "InstanceType" : {
-      "Description" : "WebServer EC2 instance type",
+      "Description" : "EC2 instance type",
       "Type" : "String",
       "Default" : "t2.micro",
       "AllowedValues" : [ "t2.micro", "t2.small", "t2.medium", "m3.medium", "m3.large" ]
@@ -15,7 +15,7 @@
       "ConstraintDescription" : "must be a valid EC2 instance type."
     },
 
-    "SSHLocation" : {
+    "SSHAllowedFrom" : {
       "Description" : "The IP address range that can be used to SSH to the EC2 instances",
       "Type": "String",
       "MinLength": "9",
@@ -36,7 +36,7 @@
     }
 ,
     "AWSRegionArch2AMI" : {
-      "us-east-1"        : {"HVM64" : "ami-c159e8aa"}
+      "us-east-1"        : {"HVM64" : "ami-0f4cfd64"}
     }
 
   },
@@ -79,7 +79,7 @@
           "IpProtocol" : "tcp",
           "FromPort" : "22",
           "ToPort" : "22",
-          "CidrIp" : { "Ref" : "SSHLocation"}
+          "CidrIp" : { "Ref" : "SSHAllowedFrom"}
         } ]
       }
     }
