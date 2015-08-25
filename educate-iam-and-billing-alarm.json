@@ -1,6 +1,6 @@
 {  
    "AWSTemplateFormatVersion":"2010-09-09",
-   "Description":"AWS CloudFormation Template educage-iam-and-billing-alarm: Creates default IAM User and Billing Alarm **WARNING** You will be billed for the AWS resources used if you create a stack from this template.",
+   "Description":"AWS CloudFormation Template educate-iam-and-billing-alarm: Creates default IAM User and Billing Alarm **WARNING** You will be billed for the AWS resources used if you create a stack from this template.",
    "Parameters":{  
       "BillingNotificationEmail":{  
          "Type":"String",
