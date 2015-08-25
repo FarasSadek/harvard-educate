@@ -145,6 +145,21 @@
                "SecretAccessKey"
             ]
          }
+      },
+      "IAMConsoleURL":{  
+         "Description":"IAM Secret Key",
+         "Value":{  
+            "Fn::Join":[  
+               "",
+               [  
+                  "https://",
+                  {  
+                     "Ref":"AWS::AccountID"
+                  },
+                  ".signin.aws.amazon.com/console"
+               ]
+            ]
+         }
       }
    }
 }
