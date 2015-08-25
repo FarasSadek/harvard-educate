@@ -130,6 +130,21 @@
          "Value":{  
             "Ref":"IAMPassword"
          }
+      },
+      "IAMAccessKey":{  
+         "Description":"IAM Access Key",
+         "Value":{  
+            "Ref":"IAMUserAccessKey"
+         }
+      },
+      "IAMSecretKey":{  
+         "Description":"IAM Secret Key",
+         "Value":{  
+            "Fn::GetAtt":[  
+               "IAMUserAccessKey",
+               "SecretAccessKey"
+            ]
+         }
       }
    }
 }
