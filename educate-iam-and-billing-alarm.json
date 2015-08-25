@@ -122,7 +122,7 @@
       "IAMUserName":{  
          "Description":"IAM User Name",
          "Value":{  
-            "Ref":"IAMUserName"
+            "Ref":"IAMUser"
          }
       },
       "IAMPassword":{  
