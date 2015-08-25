@@ -67,7 +67,8 @@
     "echo $SSHKEY >> /home/$USERNAME/.ssh/authorized_keys\n",
     "chmod 700 /home/$USERNAME/.ssh\n",
     "chmod 600 /home/$USERNAME/.ssh/authorized_keys\n",
-    "chown -R $USERNAME:students /home/$USERNAME/.ssh\n"
+    "chown -R $USERNAME:students /home/$USERNAME/.ssh\n",
+    "echo \"$USERNAME ALL=(ALL) NOPASSWD: ALL\" > /etc/sudoers.d/2_$USERNAME"
 ]]}}
       }
     },
