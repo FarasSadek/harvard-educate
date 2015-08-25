@@ -10,7 +10,7 @@
          "Type":"Number",
          "Default":"75"
       },
-      "UserName":{  
+      "IAMUserName":{  
          "Type":"String",
          "Default":"harvarduser"
       }
