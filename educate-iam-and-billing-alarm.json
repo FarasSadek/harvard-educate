@@ -91,7 +91,7 @@
             "Period":"21600",
             "EvaluationPeriods":"1",
             "Threshold":{  
-               "Ref":"AlarmThreshold"
+               "Ref":"BillingAlarmThreshold"
             },
             "ComparisonOperator":"GreaterThanThreshold",
             "AlarmActions":[  
