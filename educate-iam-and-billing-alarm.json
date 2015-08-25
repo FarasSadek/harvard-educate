@@ -22,7 +22,7 @@
             "Path":"/",
             "LoginProfile":{  
                "Password":{  
-                  "Ref":"BillingNotificationEmail"
+                  "Ref":"$IAMUserName"
                }
             },
             "Policies":[  
