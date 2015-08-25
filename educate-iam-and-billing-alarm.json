@@ -10,9 +10,9 @@
          "Type":"Number",
          "Default":"75"
       },
-      "IAMUserName":{  
+      "IAMPassword":{  
          "Type":"String",
-         "Default":"harvarduser"
+         "Default":"harvarduser4483h8h348h48hefw"
       }
    },
    "Resources":{  
@@ -22,7 +22,7 @@
             "Path":"/",
             "LoginProfile":{  
                "Password":{  
-                  "Ref":"$IAMUserName"
+                  "Ref":"IAMPassword"
                }
             },
             "Policies":[  
