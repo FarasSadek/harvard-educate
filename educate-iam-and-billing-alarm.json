@@ -154,7 +154,7 @@
                [  
                   "https://",
                   {  
-                     "Ref":"AWS::AccountID"
+                     "Ref":"AWS::AccountId"
                   },
                   ".signin.aws.amazon.com/console"
                ]
