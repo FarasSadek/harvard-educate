@@ -44,6 +44,9 @@
                            "Effect":"Deny",
                            "Action":[  
                               "iam:*"
+                           ],
+                           "Resource":[  
+                              "*"
                            ]
                         }
                      ]
