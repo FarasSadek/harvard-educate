@@ -117,5 +117,19 @@
             ]
          }
       }
+   },
+   "Outputs":{  
+      "IAMUserName":{  
+         "Description":"IAM User Name",
+         "Value":{  
+            "Ref":"IAMUserName"
+         }
+      },
+      "IAMPassword":{  
+         "Description":"IAM Password",
+         "Value":{  
+            "Ref":"IAMPassword"
+         }
+      }
    }
 }
