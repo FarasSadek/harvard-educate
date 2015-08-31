@@ -40,6 +40,15 @@
                               "*"
                            ]
                         },
+                        {
+                           "Effect":"Allow",
+                           "Action":[
+                              "aws-portal:*Billing"
+                           ],
+                           "Resource":[
+                              "*"
+                           ]
+                        },
                         {  
                            "Effect":"Deny",
                            "Action":[  
