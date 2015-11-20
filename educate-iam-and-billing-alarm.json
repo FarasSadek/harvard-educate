@@ -4,7 +4,7 @@
    "Parameters":{  
       "BillingNotificationEmail":{  
          "Type":"String",
-         "Default":"aws-admin@seas.harvard.edu"
+         "Default":"youremail@email.com"
       },
       "BillingAlarmThreshold":{  
          "Type":"Number",
@@ -12,7 +12,7 @@
       },
       "IAMPassword":{  
          "Type":"String",
-         "Default":"harvarduser4483h8h348h48hefw"
+         "Default":"password4483h8h348h48hefw"
       }
    },
    "Resources":{  
