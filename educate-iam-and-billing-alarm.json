@@ -8,7 +8,7 @@
       },
       "BillingAlarmThreshold":{  
          "Type":"Number",
-         "Default":"75"
+         "Default":"35"
       },
       "IAMPassword":{  
          "Type":"String",
